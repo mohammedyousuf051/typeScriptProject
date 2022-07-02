@@ -1,4 +1,4 @@
-function combine(input1, input2, resulttobe) {
+// function combine(input1, input2, resulttobe) {
     var res;
     if (typeof input1 === 'number' && typeof input2 === 'number' || resulttobe === 'as-number') {
         res = +input1 + +input2;
