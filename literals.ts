@@ -1,7 +1,7 @@
 
 type showtype = 'as-number' | 'as-text';
 
-function combine(input1: number | string, input2:number | string, resulttobe: showtype){
+// function combine(input1: number | string, input2:number | string, resulttobe: showtype){
     let res;
     if (typeof input1 === 'number' && typeof input2 === 'number' || resulttobe === 'as-number' ){
         res = +input1 + +input2
